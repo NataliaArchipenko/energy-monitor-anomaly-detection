@@ -47,7 +47,63 @@ EnergyMonitor:
      - dashboard_preview.png
      -  app_preview.png
 - README.md
+  
+# To-Do Liste:
 
+### ✔ **Phase 1 – Datenaufbereitung**  
+- [x] Rohdaten laden  
+- [x] Datum & Zeit in Timestamp umwandeln  
+- [x] Fehlende Werte analysieren  
+- [x] Fehlende Werte entfernen (0.012 %)  
+- [x] Datentypen bereinigen  
+- [x] Data Cleaning abgeschlossen **(Stand: Heute)**  
+- [x] Export der bereinigten Daten (`processed/`)  
+
+---
+
+### **Phase 2 – Explorative Datenanalyse (EDA)**  
+- [ ] Verbrauch über Zeit (Tage/Wochen/Monate)  
+- [ ] Peaks erkennen  
+- [ ] Arbeits- vs. Wochenendtage  
+- [ ] Saisonale Muster  
+- [ ] Temperatur/Extremperioden  
+- [ ] Korrelationsanalyse  
+- [ ] Visualisierungen speichern  
+
+---
+
+### **Phase 3 – Anomalieerkennung**  
+- [ ] IsolationForest trainieren  
+- [ ] Rolling Z-Score implementieren  
+- [ ] Optional: Autoencoder  
+- [ ] Modelle vergleichen  
+- [ ] Anomalien speichern & beschriften  
+
+---
+
+### **Phase 4 – Forecasting (optional)**  
+- [ ] Prophet-Modell  
+- [ ] Vorhersagen für 7–30 Tage  
+- [ ] Visualisierung (Plotly/Matplotlib)  
+
+---
+
+### **Phase 5 – Dashboards**  
+
+#### Power BI  
+- [ ] Verbrauchsübersicht  
+- [ ] Tages-/Wochenprofile  
+- [ ] Anomalie-Heatmap  
+- [ ] Forecast-Dashboard  
+
+#### Streamlit  
+- [ ] CSV-Upload  
+- [ ] Bereinigte Daten anzeigen  
+- [ ] Zeitreihenplots  
+- [ ] Anomalien markieren  
+- [ ] „Explain this anomaly“ Textfeld  
+
+---
 Methodik:
 - Datenvorbereitung
 - Laden großer CSV-Dateien
@@ -116,12 +172,13 @@ Dieses Projekt löst echte Probleme:
 
 Damit ist es ein idealer Demonstrationscase für Data Analyst / Data Scientist Junior Rollen.
 
-Nächste Schritte
-- Integration von Autoencoder zur tieferen Anomalieerkennung
-- Deployment der Streamlit-App
-- Weitere Feature-Engineering-Ideen
-- Dokumentation der Business-Interpretation
-- Erweiterung für mehrere Haushalte
+#  Nächste Schritte
+
+- [ ] Notebook 2: EDA beginnen  
+- [ ] Weitere Feature Engineering Ideen  
+- [ ] Streamlit App iterativ entwickeln  
+- [ ] Business Interpretation ergänzen  
+- [ ] Projekt für Portfolio aufbereiten  
 
 Kontakt
 
