@@ -1,0 +1,29 @@
+# === Data Science Project Gitignore ===
+# RAW DATA (raw/original datasets – DO NOT UPLOAD)
+Data/original/*
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+
+# Processed data (optional)
+Data/bearbeitet/*
+
+# Power BI files (very large)
+*.pbix
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Notebook checkpoints
+.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+env/
+
+# IDE / OS garbage
+.DS_Store
+Thumbs.db
