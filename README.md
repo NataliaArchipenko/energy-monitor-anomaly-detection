@@ -25,7 +25,7 @@ Projektstruktur:
 
 EnergyMonitor:
 - data:
-     - raw           # Originaldaten (nicht verändert)
+     - original          # Originaldaten (nicht verändert)
      - processed     # Bereinigte & vorbereitete Daten
 - notebooks
      - 1_data_cleaning.ipynb
