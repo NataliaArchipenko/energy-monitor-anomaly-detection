@@ -1,7 +1,7 @@
 # energy-monitor-anomaly-detection
-EnergyMonitor: Anomaly Detection im Stromverbrauch von Haushalten
+**EnergyMonitor: Anomaly Detection im Stromverbrauch von Haushalten**
 
-(Time Series Analysis · Machine Learning · Power BI · Streamlit)
+**Time Series Analysis · Machine Learning · Power BI · Streamlit**
 
 Kurzbeschreibung
 
@@ -182,7 +182,7 @@ Damit ist es ein idealer Demonstrationscase für Data Analyst / Data Scientist J
 
 Kontakt
 
-Nataliya - Data Analyst (Python, ML, Power BI)
+Nataliya Archipenko
 
 LinkedIn: www.linkedin.com/in/natalia-archipenko-335357271
 GitHub: https://github.com/NataliaArchipenko
