@@ -62,12 +62,12 @@ EnergyMonitor:
 ---
 
 ### **Phase 2 – Explorative Datenanalyse (EDA)**  
-- [ ] Verbrauch über Zeit (Tage/Wochen/Monate)  
-- [ ] Peaks erkennen  
-- [ ] Arbeits- vs. Wochenendtage  
-- [ ] Saisonale Muster  
+- [x] Verbrauch über Zeit (Tage/Wochen/Monate)  
+- [x] Peaks erkennen  
+- [x] Arbeits- vs. Wochenendtage  
+- [x] Saisonale Muster  
 - [ ] Temperatur/Extremperioden  
-- [ ] Korrelationsanalyse  
+- [x] Korrelationsanalyse  
 - [ ] Visualisierungen speichern  
 
 ---
