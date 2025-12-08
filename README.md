@@ -68,7 +68,7 @@ EnergyMonitor:
 - [x] Saisonale Muster  
 - [ ] Temperatur/Extremperioden  
 - [x] Korrelationsanalyse  
-- [ ] Visualisierungen speichern  
+- [x] Visualisierungen speichern  
 
 ---
 
