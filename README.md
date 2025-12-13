@@ -72,7 +72,7 @@ EnergyMonitor:
 ---
 
 ### **Phase 3 – Anomalieerkennung**  
-- [ ] IsolationForest trainieren  
+- [x] IsolationForest trainieren  
 - [ ] Rolling Z-Score implementieren  
 - [ ] Optional: Autoencoder  
 - [ ] Modelle vergleichen  
