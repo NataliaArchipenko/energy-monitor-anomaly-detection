@@ -73,10 +73,11 @@ EnergyMonitor:
 
 ### **Phase 3 – Anomalieerkennung**  
 - [x] IsolationForest trainieren  
-- [ ] Rolling Z-Score implementieren  
+- [x] Rolling Z-Score implementieren  
 - [ ] Optional: Autoencoder  
-- [ ] Modelle vergleichen  
-- [ ] Anomalien speichern & beschriften  
+- [x] Modelle vergleichen  
+- [x] Anomalien speichern (Labels & Scores)
+- [ ] Anomalien beschriften (Explainability / anomaly_reason)
 
 ---
 
