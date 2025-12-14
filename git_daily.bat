@@ -1,36 +1,34 @@
 @echo off
 echo ---------------------------------------
-echo   Git Daily Commit & Push
+echo   Git Daily Commit
 echo ---------------------------------------
 
-cd "C:\Users\NataliaArchipenko\OneDrive - BBQ - Baumann Bildung und Qualifizierung GmbH\Desktop\Projekt"
+git status
 
-REM Prüfen, ob es Änderungen gibt
-git diff --quiet
-IF %ERRORLEVEL%==0 (
-    echo [INFO] Keine Änderungen. Kein Commit nötig.
-    pause
-    exit /b
-)
-
-REM Änderungen hinzufügen
 git add .
 
-REM Commit mit Datum/Uhrzeit
-for /f "tokens=1-5 delims=/: " %%d in ("%date% %time%") do (
-    set timestamp=%%d-%%e-%%f_%%g-%%h
+git commit -m "Daily update %date%-%time%"
+if errorlevel 1 (
+    echo [INFO] Keine Aenderungen. Kein Commit noetig.
 )
 
-echo [INFO] Commit: Daily update %timestamp%
-git commit -m "Daily update %timestamp%"
+echo [INFO] Pull (rebase)...
+git pull --rebase origin main
+if errorlevel 1 (
+    echo [FEHLER] git pull ist fehlgeschlagen.
+    pause
+    exit /b 1
+)
 
-REM Push
+echo [INFO] Push...
 git push
-IF %ERRORLEVEL% NEQ 0 (
-    echo [FEHLER] git push ist fehlgeschlagen. Bitte Terminalausgabe prüfen.
-) ELSE (
-    echo [OK] Änderungen erfolgreich hochgeladen.
+if errorlevel 1 (
+    echo [FEHLER] git push ist fehlgeschlagen.
+    pause
+    exit /b 1
 )
 
+echo ---------------------------------------
+echo   Fertig
 echo ---------------------------------------
 pause
