@@ -107,19 +107,17 @@ Methodik:
 - Datenvorbereitung
 - Laden großer CSV-Dateien
 - Umgang mit fehlenden Werten
-- Zeitstempel bereinigen & resamplen
-- Feature Engineering (z. B. Stunde, Wochentag, Feiertage)
+- Zeitstempel bereinigen und resamplen
+- Feature Engineering 
 - Explorative Analyse
 - Verbrauch über Zeit
-- Hitze-/Kälteperioden
 - Working days vs. weekends
-- Peaks & Verbrauchsprofile
+- Peaks und Verbrauchsprofile
 - Anomalieerkennung
 
 Verwendete Modelle:
 - Isolation Forest (Hauptmodell)
 - Z-Score / Rolling Mean (Baseline)
-- Optional: Autoencoder für tieferes Pattern-Learning
 
 Visualisierung:
 - Matplotlib/Seaborn-Analysen
@@ -166,18 +164,9 @@ Dieses Projekt löst echte Probleme:
 - Erkennen ungewöhnlicher Energie-Spikes → Kosten sparen
 - Frühwarnsystem für defekte Geräte
 - Vergleich von Verbrauchsprofilen
-- Prognosen für Planung & Ressourcenmanagement
+- Prognosen für Planung und Ressourcenmanagement
 - Grundlage für Smart Home / IoT Analysen
 
-Damit ist es ein idealer Demonstrationscase für Data Analyst / Data Scientist Junior Rollen.
-
-#  Nächste Schritte
-
-- [ ] Notebook 2: EDA beginnen  
-- [ ] Weitere Feature Engineering Ideen  
-- [ ] Streamlit App iterativ entwickeln  
-- [ ] Business Interpretation ergänzen  
-- [ ] Projekt für Portfolio aufbereiten  
 
 Kontakt
 
