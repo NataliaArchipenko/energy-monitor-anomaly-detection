@@ -80,7 +80,7 @@ EnergyMonitor:
 
 ---
 
-### **Phase 4 – Forecasting (optional)**  
+### ✔ **Phase 4 – Forecasting (optional)**  
 - [x] Prophet-Modell  
 - [x] Vorhersagen für 7–30 Tage  
 - [x] Visualisierung (Plotly/Matplotlib)  
