@@ -29,8 +29,8 @@ Beispielhafte Ergebnisse sind im Ordner /img dokumentiert.
 ## Projektstruktur
 
 EnergyMonitor:
-- data/
-     - original/         
+- data
+     - original        
      - processed/   
 - notebooks/
 -  src/
@@ -40,7 +40,20 @@ EnergyMonitor:
      - powerbi_dashboard.pbix
 - img/
 - README.md
-  
+
+  EnergyMonitor/
+├── data/
+│   ├── original/
+│   └── processed/
+├── notebooks/
+├── src/
+├── app/
+│   └── streamlit_app.py
+├── dashboard/
+│   └── powerbi_dashboard.pbix
+├── img/
+└── README.md
+
  ## Technologien
 - **Python:** pandas, numpy, scikit-learn, matplotlib, seaborn, plotly
 - **Machine Learning:** Isolation Forest
