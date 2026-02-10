@@ -1,5 +1,5 @@
 # energy-monitor-anomaly-detection
-**EnergyMonitor: Anomaly Detection im Stromverbrauch von Haushalten**
+**EnergyMonitor: Anomaly Detection in Household Energy Consumption**
 
 **Kurzbeschreibung**
 Dieses Projekt zeigt, wie Anomalien im Stromverbrauch von Haushalten mithilfe von Zeitreihenanalyse und Machine-Learning-Verfahren erkannt und visualisiert werden können. 
