@@ -1,8 +1,6 @@
 # energy-monitor-anomaly-detection
 **EnergyMonitor: Anomaly Detection im Stromverbrauch von Haushalten**
 
-**Time Series Analysis · Machine Learning · Power BI · Streamlit**
-
 **Kurzbeschreibung**
 Dieses Projekt zeigt, wie Anomalien im Stromverbrauch von Haushalten mithilfe von Zeitreihenanalyse und Machine-Learning-Verfahren erkannt und visualisiert werden können. 
 Ziel ist es, ungewöhnliche Verbrauchsmuster frühzeitig zu identifizieren und als Grundlage für datengetriebene Entscheidungen im Energie- und Smart-Home-Kontext zu dienen.
