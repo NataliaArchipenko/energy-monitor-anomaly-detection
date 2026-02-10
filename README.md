@@ -10,7 +10,7 @@ Ziel ist es, ungewöhnliche Verbrauchsmuster frühzeitig zu identifizieren und a
 Energieverbrauchsdaten aus Smart Metern enthalten häufig Ausreißer, die auf technische Defekte, ineffiziente Geräte oder ungewöhnliches Nutzerverhalten hinweisen.
 Diese Anomalien manuell zu erkennen ist zeitaufwendig und fehleranfällig.
 
-## Lösungsansatz**
+## Lösungsansatz
 
 - Strukturierte Datenaufbereitung und Zeitreihenanalyse
 - Explorative Analyse von Tages-, Wochen- und saisonalen Verbrauchsmustern
@@ -31,28 +31,16 @@ Beispielhafte Ergebnisse sind im Ordner /img dokumentiert.
 EnergyMonitor:
 - data
      - original        
-     - processed/   
-- notebooks/
--  src/
-- app/
+     - processed  
+- notebooks
+-  src
+- app
      - streamlit_app.py
-- dashboard/
+- dashboard
      - powerbi_dashboard.pbix
-- img/
+- img
 - README.md
 
-  EnergyMonitor/
-├── data/
-│   ├── original/
-│   └── processed/
-├── notebooks/
-├── src/
-├── app/
-│   └── streamlit_app.py
-├── dashboard/
-│   └── powerbi_dashboard.pbix
-├── img/
-└── README.md
 
  ## Technologien
 - **Python:** pandas, numpy, scikit-learn, matplotlib, seaborn, plotly
