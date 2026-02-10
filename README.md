@@ -5,7 +5,7 @@
 Dieses Projekt zeigt, wie Anomalien im Stromverbrauch von Haushalten mithilfe von Zeitreihenanalyse und Machine-Learning-Verfahren erkannt und visualisiert werden können. 
 Ziel ist es, ungewöhnliche Verbrauchsmuster frühzeitig zu identifizieren und als Grundlage für datengetriebene Entscheidungen im Energie- und Smart-Home-Kontext zu dienen.
 
-##Problemstellung
+## Problemstellung
 
 Energieverbrauchsdaten aus Smart Metern enthalten häufig Ausreißer, die auf technische Defekte, ineffiziente Geräte oder ungewöhnliches Nutzerverhalten hinweisen.
 Diese Anomalien manuell zu erkennen ist zeitaufwendig und fehleranfällig.
