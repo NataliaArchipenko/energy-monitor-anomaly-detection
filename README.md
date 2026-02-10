@@ -1,16 +1,16 @@
 # energy-monitor-anomaly-detection
 **EnergyMonitor: Anomaly Detection in Household Energy Consumption**
 
-**Kurzbeschreibung**
+## Kurzbeschreibung
 Dieses Projekt zeigt, wie Anomalien im Stromverbrauch von Haushalten mithilfe von Zeitreihenanalyse und Machine-Learning-Verfahren erkannt und visualisiert werden können. 
 Ziel ist es, ungewöhnliche Verbrauchsmuster frühzeitig zu identifizieren und als Grundlage für datengetriebene Entscheidungen im Energie- und Smart-Home-Kontext zu dienen.
 
-**Problemstellung**
+##Problemstellung
 
 Energieverbrauchsdaten aus Smart Metern enthalten häufig Ausreißer, die auf technische Defekte, ineffiziente Geräte oder ungewöhnliches Nutzerverhalten hinweisen.
 Diese Anomalien manuell zu erkennen ist zeitaufwendig und fehleranfällig.
 
-**Lösungsansatz**
+## Lösungsansatz**
 
 - Strukturierte Datenaufbereitung und Zeitreihenanalyse
 - Explorative Analyse von Tages-, Wochen- und saisonalen Verbrauchsmustern
@@ -18,14 +18,15 @@ Diese Anomalien manuell zu erkennen ist zeitaufwendig und fehleranfällig.
 - Vergleich und Bewertung der Modelle
 - Visualisierung der Ergebnisse in interaktiven Dashboards
 
-**Ergebnisse**
+## Ergebnisse
 
 - Identifikation signifikanter Verbrauchsanomalien in realitätsnahen Smart-Meter-Daten
 - Erklärbare Kennzeichnung von Anomalien (Zeitpunkt, Stärke, Kontext)
 - Interaktive Visualisierung über Streamlit und Power BI
 
 Beispielhafte Ergebnisse sind im Ordner /img dokumentiert.
-**Projektstruktur:**
+
+## Projektstruktur
 
 EnergyMonitor:
 - data/
@@ -35,23 +36,22 @@ EnergyMonitor:
 -  src/
 - app/
      - streamlit_app.py
-- dashboard
+- dashboard/
      - powerbi_dashboard.pbix
 - img/
 - README.md
   
-**Technologien**
+ ## Technologien
 - **Python:** pandas, numpy, scikit-learn, matplotlib, seaborn, plotly
 - **Machine Learning:** Isolation Forest
 - **Dashboards:** Streamlit, Power BI
 
-**Business-Relevanz**
+## Business-Relevanz
 - Frühzeitige Erkennung ungewöhnlicher Energie-Spikes
 - Unterstützung bei Kosten- und Ressourcenoptimierung
 - Übertragbar auf Smart-Home-, IoT- und Energie-Monitoring-Anwendungen
 
-Kontakt
-
+## Kontakt
 **Nataliya Archipenko**
 LinkedIn: www.linkedin.com/in/natalia-archipenko-335357271
 GitHub: https://github.com/NataliaArchipenko
